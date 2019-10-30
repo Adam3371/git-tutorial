@@ -21,3 +21,16 @@ index c270be0..d331a54 100644
  	}
  	return 0;
  }
+diff --git a/src/main.c b/src/main.c
+index d331a54..7bdea08 100644
+--- a/src/main.c
++++ b/src/main.c
+@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
+ 	{
+ 	
+ 		printf("Hello ESPL\n");
+-		print("%i",i);
++		printf("%i",i);
+ 	}
+ 	return 0;
+ }

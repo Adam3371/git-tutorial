@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	{
 	
 		printf("Hello ESPL\n");
-		print("%i",i);
+		printf("%i",i);
 	}
 	return 0;
 }
