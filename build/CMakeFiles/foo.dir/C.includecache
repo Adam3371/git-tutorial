@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/espl_lib.h
+
+/home/adam/ESPL/git-tutorial/src/main.c
+stdio.h
+-
+stdlib.h
+-
+espl_lib.h
+/home/adam/ESPL/git-tutorial/src/espl_lib.h
+
