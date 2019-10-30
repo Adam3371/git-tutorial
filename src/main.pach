@@ -1,0 +1,23 @@
+diff --git a/main.c b/main.c
+index f6233e9..c7e7d8b 100644
+--- a/main.c
++++ b/main.c
+@@ -4,4 +4,4 @@ int main()
+ {
+ 	printf("Hello ESPL\n");
+ 	return 0;	
+-}
+\ No newline at end of file
++}
+diff --git a/src/main.c b/src/main.c
+index c270be0..d331a54 100644
+--- a/src/main.c
++++ b/src/main.c
+@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
+ 	{
+ 	
+ 		printf("Hello ESPL\n");
++		print("%i",i);
+ 	}
+ 	return 0;
+ }
